@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <vHistogram />
     <vBar />
     <vPie />
     <Echart-line2 />
@@ -14,6 +15,7 @@ import EchartLine from "./components/EchartLine";
 import EchartLine2 from "./components/EchartLine2";
 import vPie from "./components/vPie";
 import vBar from "./components/vBar";
+import vHistogram from "./components/vHistogram";
 
 export default {
   name: "app",
@@ -22,7 +24,8 @@ export default {
     EchartLine2,
     EchartLine,
     vPie,
-    vBar
+    vBar,
+    vHistogram
   },
   data() {
     return {

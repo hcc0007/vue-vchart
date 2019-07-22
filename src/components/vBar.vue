@@ -12,6 +12,9 @@ export default {
     this.chartExtends = {
       series: {
         barMaxWidth: 20
+      },
+      legend: {
+        show: false
       }
     };
     return {
